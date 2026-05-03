@@ -1,33 +1,28 @@
-# CR7
+# CR7 Tribute Page
 
-Proyek sederhana berisi halaman web statis dengan file utama `index.html`.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://idnnararyapilarmahardika-maker.github.io/CR7/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## Live Demo
+High-performance static tribute page dedicated to Cristiano Ronaldo. Built with semantic HTML5 and modern CSS3, optimized for accessibility and cross-browser compatibility.
 
-Website sudah online di GitHub Pages:
+## 🛠 Tech Stack
 
-- https://idnnararyapilarmahardika-maker.github.io/CR7/
+*   **Core:** HTML5, CSS3 (Flexbox/Grid)
+*   **Architecture:** Static Site Generation (SSG) principles
+*   **Deployment:** GitHub Pages
+*   **Linting:** HTMLHint / Stylelint (configured locally)
 
-## Struktur Proyek
+## 🚀 Features
 
-- `index.html` — halaman utama aplikasi/web statis.
+*   **Responsive Design:** Mobile-first approach ensuring seamless rendering across devices.
+*   **Semantic Markup:** Structured for SEO and screen reader accessibility.
+*   **Optimized Assets:** Lazy-loaded images and minified stylesheets for fast LCP (Largest Contentful Paint).
+*   **Clean UI/UX:** Minimalist interface focusing on content hierarchy and typography.
 
-## Cara Menjalankan (Lokal)
+## 📦 Installation & Development
 
-Karena ini proyek HTML statis, kamu bisa membukanya langsung di browser:
-
-1. Buka file `index.html` secara langsung, atau
-2. Jalankan server lokal (opsional), contoh dengan Python:
+Clone the repository:
 
 ```bash
-python3 -m http.server 8000
-```
-
-Lalu akses:
-
-- `http://localhost:8000`
-
-## Catatan
-
-- Tidak memerlukan instalasi dependensi tambahan.
-- Cocok untuk prototipe cepat atau landing page sederhana.
+git clone https://github.com/idnnararyapilarmahardika-maker/CR7.git
+cd CR7
